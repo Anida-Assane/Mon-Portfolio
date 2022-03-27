@@ -1,0 +1,368 @@
+/*header*/
+header .bars
+{
+    flex: 1;
+    display: none;
+}
+/*
+@media screen and (min-width:px)
+{
+    .home .infos h1
+    {
+        font-size: 40px;
+    }
+    .home .infos h2
+    {
+        font-size: 30px;
+    }
+
+    header nav 
+    {
+        flex: 3;
+        display: flex;
+        justify-content: start;
+    }
+}
+
+@media screen and (min-width:950px) and (max-width:1500px)
+{
+    header
+    {
+        padding: 0 0 0 30px;
+    }
+    header nav 
+    {
+        display: none;
+        flex: 0;
+    }
+    header .bars
+    {
+    display: flex;
+    justify-content: center;
+    }
+
+    .home .infos .smile
+    {
+        font-size: 1.6rem ;
+    }
+    .home .infos .download button
+    {
+        font-size: 0.6rem;
+        width: 160px;
+        border-radius: 22px;
+    }
+    .home .infos h1
+    {
+        font-size: 30px !important;
+    }
+    .home .infos h2
+    {
+        font-size: 25px !important ;
+    }
+}
+*/
+@media screen and (max-width:450px)
+{
+  
+    header
+    {
+        padding: 0 0 0 30px;
+    }
+    header nav 
+    {
+        display: none;
+        flex: 0;
+    }
+    header .bars
+    {
+    display: flex;
+    justify-content: center!important;
+    
+    }
+    .home .infos .smile
+    {
+        font-size: 1rem ;
+        margin-top: 5px;
+        margin-bottom: 10px !important;
+    }
+    .home .infos .download 
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .home .infos .download button
+    {
+        font-size: 0.2rem;
+        width: 150px;
+        border-radius: 15px;
+        padding: 6px 2px;
+    }
+    .home .infos
+    {
+        margin-top: 13% !important;
+        width: 100%;
+    }
+    .home .infos h1
+    {
+        font-size: 5vw !important;
+    }
+    .home .infos h2
+    {
+        font-size: 4.5vw !important;
+    }
+}
+
+
+
+
+@media screen and (min-width:450px) and (max-width:900px)
+{
+   
+    header
+    {
+        padding: 0 0 0 30px;
+    }
+    header nav 
+    {
+        display: none;
+        flex: 0;
+    }
+    header .bars
+    {
+    display: flex;
+    justify-content: center!important;
+    
+    }
+    .home .infos .smile
+    {
+        font-size: 1.1rem ;
+        margin-top: 8px;
+        margin-bottom: 13px !important;
+    }
+    .home .infos .download button
+    {
+        font-size: 0.4rem;
+        width: 160px;
+        border-radius: 15px;
+        padding: 6px 3px;
+    }
+    .home .infos
+    {
+        margin-top: 10% !important;
+        width: 100%;
+    }
+    .home .infos h1
+    {
+        font-size: 5vw !important;
+    }
+    .home .infos h2
+    {
+        font-size: 4.5vw !important;
+    }
+}
+
+
+
+
+@media  screen and (min-width:700px) and (max-width:900px) 
+{
+    .home .infos
+    {
+        margin-top: 5% !important;
+    }
+    .home .infos .smile
+    {
+        font-size: 1.5rem ;
+    }
+    
+}
+
+
+
+@media  screen and (min-width:901px) and (max-width:1200px) 
+{
+    .home .infos
+    {
+        margin-top: 5% !important;
+    }
+    .home .infos .smile
+    {
+        font-size: 1.5rem ;
+    }
+    header
+    {
+        padding: 0 0 0 30px;
+    }
+   
+    .home .infos .smile
+    {
+        font-size: 1.6rem ;
+        margin-top: 8px;
+        margin-bottom: 13px !important;
+    }
+    .home .infos .download button
+    {
+        font-size: 0.4rem;
+        width: 170px;
+        border-radius: 15px;
+        padding: 6px 3px;
+    }
+    header nav 
+    {
+        flex: 4.5;
+        display: flex;
+        justify-content: center;
+        font-size: 1.3rem !important;
+    }
+    header nav ul li a
+    {
+        font-size: 1.1rem !important;
+    }
+    .home .infos
+    {
+        margin-top: 5% !important;
+        width: 100%;
+    }
+    .home .infos h1
+    {
+        font-size: 5vw !important;
+    }
+    .home .infos h2
+    {
+        font-size: 4.5vw !important;
+    }
+}
+
+
+
+@media  screen and (min-width:1201px)
+{
+    .home .infos
+    {
+        margin-top: 5% !important;
+    }
+    header
+    {
+        padding: 0 0 0 30px;
+    }
+   
+    .home .infos .smile
+    {
+        font-size: 1.7rem ;
+        margin-top: 8px;
+        margin-bottom: 13px !important;
+    }
+    .home .infos .download button
+    {
+        font-size: 0.4rem;
+        width: 200px;
+        border-radius: 25px;
+        padding: 10px 6px;
+    }
+    .home .infos h1
+    {
+        font-size: 4.5vw !important;
+    }
+    .home .infos h2
+    {
+        font-size: 4vw !important;
+    }
+}
+
+
+
+
+@media  screen and (min-width:1400px)
+{
+    .home .infos
+    {
+        margin-top: 2% !important;
+    }
+    header
+    {
+        padding: 0 0 0 30px;
+    }
+   
+    .home .infos .smile
+    {
+        font-size: 1.7rem ;
+        margin-top: 8px;
+        margin-bottom: 13px !important;
+    }
+    .home .infos .download button
+    {
+        font-size: 0.4rem;
+        width: 200px;
+        border-radius: 25px;
+        padding: 10px 6px;
+    }
+    .home .infos h1
+    {
+        font-size: 3.4vw !important;
+    }
+    .home .infos h2
+    {
+        font-size: 3vw !important;
+    }
+}
+@media screen and (max-width:720px)
+{
+    .about .about-infos
+    {
+        width: 100%;
+    }
+    .about .about-infos .image 
+   {
+    display: none;
+   }  
+   .about .about-infos .about-details
+   {
+       width: 100%;
+       padding: 0;
+       
+   }
+   .about .about-infos .about-details p
+   {
+       text-align: justify;
+      padding: 0;
+      font-size: 1rem !important;
+   }
+   .about-details h3
+   {
+       text-align: center;
+      
+   }
+   .group-buttons button
+   {
+       width: 200px;
+       padding: 10px;
+   }
+   .about
+   {
+       padding: 15px 0 20px 0;
+   }
+   
+}
+@media screen and (max-width:1400px)
+{
+    .soft1
+    {
+        display:none !important;
+    }
+    .soft2
+    {
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:1200px)
+{
+    .about .about-infos .about-details p
+    {
+       font-size: 1.7vw;
+       line-height: 25px;
+    }
+    
+}
+
+
